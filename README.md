@@ -1,19 +1,20 @@
-# 🐍 Python Task Manager (CLI)
+# 🐍 Gestor de Tarefas CLI
 
-Este é o meu primeiro projeto oficial no meu roadmap de estudos de Python! É um gerenciador de tarefas que roda via linha de comando, focado em lógica pura e manipulação de arquivos.
+Um gerenciador de tarefas simples e eficiente que roda diretamente no terminal, desenvolvido em **Python Puro**.
 
 ## 🚀 Funcionalidades
-- **Criação de tarefas:** Salva tarefas que persistem mesmo após fechar o programa.
-- **Leitura persistente:** Usa um arquivo `.txt` como banco de dados simples.
-- **Exclusão inteligente:** Remove itens da lista com tratamento de erros.
-- **Interface CLI:** Menu interativo e organizado.
+- **Adicionar Tarefas:** Salva novas tarefas em um banco de dados local.
+- **Visualizar Lista:** Exibe todas as suas tarefas pendentes de forma numerada.
+- **Remover Concluídas:** Permite excluir tarefas finalizadas da lista.
+- **Persistência:** Suas tarefas ficam salvas em um arquivo `.txt`, para você não perder nada ao fechar o programa.
 
-## 🧠 O que aprendi neste projeto:
-- Como manipular listas e índices no Python.
-- Como ler e escrever em arquivos externos (`open`, `read`, `write`).
-- Como tratar erros de usuário com `try/except`.
-- Como organizar um código em funções para deixá-lo limpo.
+## 🛠️ Tecnologias
+- Python 3.x
+- Módulo `os` (nativo)
 
-## 🛠️ Como usar
-Basta ter o Python instalado e rodar:
-`python agenda.py`
+## 📖 Como Rodar
+1. Certifique-se de ter o Python instalado.
+2. Baixe o arquivo `agenda.py`.
+3. No terminal, execute:
+   ```bash
+   py agenda.py
